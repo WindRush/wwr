@@ -1,4 +1,5 @@
 import Providers from "../components/providers";
+import CHeader from "@/components/cheader";
 
 export default function RootLayout({
   children,
@@ -8,7 +9,12 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        <Providers>{children}</Providers>
+        <div>
+          <CHeader/>
+        </div>
+        <div>
+          <Providers>{children}</Providers>
+        </div>
       </body>
     </html>
   );
