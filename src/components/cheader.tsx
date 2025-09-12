@@ -3,10 +3,10 @@ import { Button } from "./ui/button";
 
 export default function CHeader() {
   return (
-    <header className="w-full bg-[oklch(0.145_0_0)] text-white">
+    <header className="fixed left-0 top-0 z-50 w-full bg-[oklch(0.145_0_0)] text-white">
       <div className="mx-auto flex h-16 w-full items-center justify-between gap-4 px-4 max-w-7xl">
         {/* Left: Logo */}
-        <div className="flex">
+        <div className="flex items-center">
           <Image src="/tiger.svg" alt="logo" width={28} height={28} />
           <div className="text-lg font-semibold ms-3">DappRadar</div>
 
