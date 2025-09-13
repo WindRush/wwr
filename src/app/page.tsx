@@ -1,6 +1,7 @@
 'use client';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import AboutUs from "@/components/footer";
 export default function Main() {
   return (
     <div className="mt-16">
@@ -15,7 +16,7 @@ export default function Main() {
         <SwiperSlide className="w-full max-h-200 bg-red-100">Slide 2</SwiperSlide>
         <SwiperSlide className="w-full max-h-200 bg-neutral-300">Slide 3</SwiperSlide>
         <SwiperSlide className="w-full max-h-200 bg-green-300">Slide 4</SwiperSlide>
-        ...
+        <AboutUs />
       </Swiper>
     </div>
   );

@@ -8,7 +8,7 @@ export default function CHeader() {
         {/* Left: Logo */}
         <div className="flex items-center">
           <Image src="/tiger.svg" alt="logo" width={28} height={28} />
-          <div className="text-lg font-semibold ms-3">DappRadar</div>
+          <div className="text-lg font-semibold ms-3">DappTiger</div>
 
           {/* Search */}
           <div className="ms-10 w-2xl flex items-center max-w-xl border border-white/10 rounded-xl px-4 py-2">
