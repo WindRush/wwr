@@ -48,7 +48,9 @@ export default function FooterLinks() {
           <Image src="/tiger.svg" alt="logo" width={28} height={28} />
           <div className="text-lg font-semibold ms-3 text-white">DappTiger</div>
         </div>
-        <div className="text-sm text-white mt-5">The World's Dapp Store</div>
+        <div className="text-sm text-white mt-5">
+          The World&#39;s Dapp Store
+        </div>
       </div>
 
       {/* right */}
@@ -61,7 +63,9 @@ export default function FooterLinks() {
             <div className="flex flex-col mt-2">
               {section.slice(1).map((item, itemIndex) => (
                 <div key={itemIndex}>
-                  {typeof item === "object" && "name" in item ? item.name : null}
+                  {typeof item === "object" && "name" in item
+                    ? item.name
+                    : null}
                 </div>
               ))}
             </div>
