@@ -11,8 +11,7 @@ export default function DappFooter() {
         <div className="">
           <div className="text-2xl text-white">Subscribe to our newsletter</div>
           <div className="text-md text-white mt-2">
-            Get the Week in Review newsletter and all the latest trends directly
-            to your inbox.
+            Get the Week in Review newsletter and all the latest trends directly to your inbox.
           </div>
         </div>
         <div className="">

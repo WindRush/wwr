@@ -54,15 +54,17 @@ const IC = () => {
     console.log("ylh status", status);
   }, [status]);
   return (
-    <Providers>
-      <ConnectButton />
-      <button onClick={approve}>Approve</button>
-      {account.address ?? "Not connected"}
-      <div>{balance}USDT</div>
-      <div>
-        <Button>ApproveXUSDT</Button>
-      </div>
-    </Providers>
+    <div className="h-500  bg-amber-300">
+      <Providers>
+        <ConnectButton />
+        <button onClick={approve}>Approve</button>
+        {account.address ?? "Not connected"}
+        <div>{balance}USDT</div>
+        <div>
+          <Button>ApproveXUSDT</Button>
+        </div>
+      </Providers>
+    </div>
   );
 };
 
