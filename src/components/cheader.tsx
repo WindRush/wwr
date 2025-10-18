@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
+import ConnectButton from "./connect_button";
+import ConnectButton2 from "./connect_button2";
 
 export default function CHeader() {
   return (
@@ -40,9 +42,9 @@ export default function CHeader() {
           </div>
 
           <div>
-            <Button className="ms-3 bg-white/10 text-white rounded-xl px-4 py-2 hover:bg-white/15">
-              Connect →
-            </Button>
+            <div className="ms-3 bg-white/10 text-white rounded-xl px-4 py-2 hover:bg-white/15">
+              <ConnectButton2 />
+            </div>
           </div>
         </div>
       </div>

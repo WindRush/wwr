@@ -19,7 +19,7 @@ const IC = () => {
   } = useWriteContract();
 
   const account = useAccount();
-  const tokenAddr = "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd";
+  const tokenAddr = "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd"; // USDT合约地址
   const { data } = useReadContract({
     abi: erc20Abi,
     address: tokenAddr,
@@ -57,11 +57,14 @@ const IC = () => {
     <div className="h-500  bg-amber-300">
       <Providers>
         <ConnectButton />
-        <button onClick={approve}>Approve</button>
-        {account.address ?? "Not connected"}
-        <div>{balance}USDT</div>
         <div>
-          <Button>ApproveXUSDT</Button>
+          <Button onClick={approve}>Approve</Button>
+        </div>
+        <div>
+          Address:{account.address ?? "Not connected"}
+        </div>
+        <div>
+          Balance:{balance}USDT
         </div>
       </Providers>
     </div>
