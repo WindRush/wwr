@@ -3692,7 +3692,7 @@ lodash@^4.17.21:
   resolved "https://registry.npmmirror.com/lodash/-/lodash-4.17.21.tgz"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -4257,13 +4257,12 @@ radix3@^1.1.2:
   resolved "https://registry.npmmirror.com/radix3/-/radix3-1.1.2.tgz"
   integrity sha512-b484I/7b8rDEdSDKckSSBA8knMpcdsXudlE/LNL639wFoHKwLbEkQFZHWEYwDC0wa0FKUcCY+GAF73Z7wxNVFA==
 
-react-dom@18.2.0:
-  version "18.2.0"
-  resolved "https://registry.npmmirror.com/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
-  integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
+react-dom@19.1.0:
+  version "19.1.0"
+  resolved "https://registry.npmmirror.com/react-dom/-/react-dom-19.1.0.tgz#133558deca37fa1d682708df8904b25186793623"
+  integrity sha512-Xs1hdnE+DyKgeHJeJznQmYMIBG3TKIHJJT95Q58nHLSrElKlGQqDTR2HQ9fx5CN/Gk6Vh/kupBTDLU11/nDk/g==
   dependencies:
-    loose-envify "^1.1.0"
-    scheduler "^0.23.0"
+    scheduler "^0.26.0"
 
 react-is@^16.13.1:
   version "16.13.1"
@@ -4297,10 +4296,10 @@ react-style-singleton@^2.2.1, react-style-singleton@^2.2.2:
     get-nonce "^1.0.0"
     tslib "^2.0.0"
 
-react@18.12.0:
-  version "19.3.0-canary-c7862584-20251006"
-  resolved "https://registry.npmmirror.com/react/-/react-19.3.0-canary-c7862584-20251006.tgz#a8e360103bff9e00c65e8cc662096315d0a5ac51"
-  integrity sha512-qFDQfJ5jxdRVmQQog1pDi1pPk1ccQEw/OIZKXd8Zf6DsDD8FLUvfEi7RtOXQ6H6iPiTsMODRjutmGfu2fbu6XA==
+react@19.1.0:
+  version "19.1.0"
+  resolved "https://registry.npmmirror.com/react/-/react-19.1.0.tgz#926864b6c48da7627f004795d6cce50e90793b75"
+  integrity sha512-FS+XFBNvn3GTAWq26joslQgWNoFu08F4kl0J4CgdNKADkdSGXQyTCnKteIAJy96Br6YbpEU1LSzV5dYtjMkMDg==
 
 readable-stream@^2.3.3:
   version "2.3.8"
@@ -4453,12 +4452,10 @@ safe-stable-stringify@^2.1.0:
   resolved "https://registry.npmmirror.com/safe-stable-stringify/-/safe-stable-stringify-2.5.0.tgz"
   integrity sha512-b3rppTKm9T+PsVCBEOUR46GWI7fdOs00VKZ1+9c1EWDaDMvjQc6tUwuFyIprgGgTcWoVHSKrU8H31ZHA2e0RHA==
 
-scheduler@^0.23.0:
-  version "0.23.2"
-  resolved "https://registry.npmmirror.com/scheduler/-/scheduler-0.23.2.tgz#414ba64a3b282892e944cf2108ecc078d115cdc3"
-  integrity sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==
-  dependencies:
-    loose-envify "^1.1.0"
+scheduler@^0.26.0:
+  version "0.26.0"
+  resolved "https://registry.npmmirror.com/scheduler/-/scheduler-0.26.0.tgz#4ce8a8c2a2095f13ea11bf9a445be50c555d6337"
+  integrity sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA==
 
 semver@^6.3.1:
   version "6.3.1"
@@ -4800,11 +4797,6 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
-
-swiper@^11.2.10:
-  version "11.2.10"
-  resolved "https://registry.npmmirror.com/swiper/-/swiper-11.2.10.tgz"
-  integrity sha512-RMeVUUjTQH+6N3ckimK93oxz6Sn5la4aDlgPzB+rBrG/smPdCTicXyhxa+woIpopz+jewEloiEE3lKo1h9w2YQ==
 
 tailwind-merge@^3.3.1:
   version "3.3.1"

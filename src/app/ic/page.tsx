@@ -36,8 +36,8 @@ const IC = () => {
       address: tokenAddr,
       functionName: "approve",
       args: [
-        "0xe369AEc574D5408604DAA3d12E95d5624fAE9112",
-        parseUnits("122", 18),
+        "0xe369AEc574D5408604DAA3d12E95d5624fAE9112",  // 授权给此账户一定金额
+        parseUnits("0.001", 18),
       ],
     });
   };
@@ -56,7 +56,6 @@ const IC = () => {
   return (
     <div className="h-500  bg-amber-300">
       <Providers>
-        <ConnectButton />
         <div>
           <Button onClick={approve}>Approve</Button>
         </div>
