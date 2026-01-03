@@ -7,7 +7,7 @@ import { config } from "@/wagmi.config";
 import Image from "next/image";
 
 
-export default function ConnectButton() {
+export default function MyConnectButton() {
   const account = useAccount();
   const { connectors } = useConnect({ config });
   console.log("ylh:connectors", connectors);

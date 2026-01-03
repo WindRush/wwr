@@ -3,7 +3,7 @@ import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { Button } from "./ui/button";
 
 
-export default function ConnectButton2() {
+export default function MyConnectButton2() {
   return (
     <div>
       <ConnectButton.Custom>
@@ -54,7 +54,7 @@ export default function ConnectButton2() {
                 }
 
                 return (
-                  <div className="flex gap-12" >
+                  <div className="flex gap-12">
                     <Button
                       onClick={openChainModal}
                       className="flex items-center"

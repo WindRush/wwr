@@ -1,5 +1,8 @@
+'use client';
 import Image from "next/image";
-import ConnectButton2 from "./connect_button2";
+import MyConnectButton2 from "./myConnectButton2";
+import MyConnectButton from "./myConnectButton";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 export default function CHeader() {
   return (
@@ -12,7 +15,7 @@ export default function CHeader() {
         </div>
 
         {/* Search */}
-        <div className="ms-10 flex items-center border border-white/10 rounded-xl px-4 py-2 flex-1">
+        <div className="flex items-center border border-white/10 rounded-xl px-4 py-2 flex-1">
           <Image src="/icon_search.svg" alt="search" width={16} height={16} />
           <input
             type="text"
@@ -40,8 +43,13 @@ export default function CHeader() {
           </div>
 
           <div>
-            <div className="ms-3 text-white rounded-xl px-4 py-2 hover:bg-white/15">
-              <ConnectButton2 />
+            <div className="ms-3">
+              <ConnectButton
+                accountStatus="avatar"
+                chainStatus="icon"
+                showBalance={false}
+                label="sign in"
+              />
             </div>
           </div>
         </div>

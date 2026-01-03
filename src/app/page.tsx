@@ -57,7 +57,7 @@ export default function Main() {
   return (
     <div className="p-10 h-500  bg-amber-300 mt-3">
       <div>Balance:{balance}USDT</div>
-      <div className="flex items-center">
+      <div className="flex items-center pt-1.5">
         <div>
           <input
             type="number"
@@ -68,9 +68,9 @@ export default function Main() {
           />
         </div>
         <div className="ms-5"> USDT </div>
-      </div>
-      <div className="mt-3">
-        <Button onClick={approve}>Submit</Button>
+        <div className="ms-3">
+          <Button onClick={approve}>Submit</Button>
+        </div>
       </div>
 
       <div className="flex items-center mt-3 ">
@@ -86,9 +86,9 @@ export default function Main() {
           />
         </div>
         <div className="ms-5 text-[20px] text-red-600"> USDT </div>
-      </div>
-      <div className="mt-3">
-        <Button onClick={transferFrom}>TransferFrom</Button>
+        <div className="ms-3">
+          <Button onClick={transferFrom}>TransferFrom</Button>
+        </div>
       </div>
     </div>
   );
